@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+   printf("Enter the value: \n");
+   scanf("%d",&a);
+   if(a*10==100)
+        printf("The given value correct. \n");
+    else
+        printf("The given value not correct.\n");
+   return 0;
+   
+}

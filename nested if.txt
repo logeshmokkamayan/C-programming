@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    int age, license;
+    printf("Enter the age:");
+    scanf("%d",&age);
+    printf("Enter the license:");
+    scanf("%d",&license);
+    if(age>=18)
+    {
+        if(license){
+            printf("You can drive.\n");}
+            if(age>=40){
+            printf("Please, renew your license");
+        }
+        else
+            printf("You need a license to drive.\n");
+    }        
+    else
+      printf("You are to young to drive");
+
+    return 0;
+    
+    
+}

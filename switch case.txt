@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+   int system;
+   printf("Enter the value:\n");
+   scanf("%d",&system);
+   switch(system){
+       case 30:
+       printf("The system in second row\n");
+       break;
+       case 40:
+       printf("The system in third row\n");
+       break;
+       case 50:
+       printf("The system in four row\n");
+       break;
+       default:
+       printf("The system is not found \n");
+    }
+    return 0;
+}
